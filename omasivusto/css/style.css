@@ -1,0 +1,23 @@
+*[class^="col-"] {
+    border: 1px solid black;
+}
+
+body {
+    background-color: rgb(32, 51, 39);
+}
+
+.container {
+    background-color: rgba(245, 245, 220, 0.664) ;
+    margin-bottom: 50px;
+}
+
+.top {
+    top: -55px;
+}
+
+h1 {
+    height: 100px;
+    text-align: center;
+    color: white;
+}
+
