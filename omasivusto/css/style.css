@@ -11,13 +11,15 @@ body {
     margin-bottom: 50px;
 }
 
-.top {
-    top: -55px;
-}
 
 h1 {
     height: 100px;
     text-align: center;
     color: white;
+    padding: 30px;
 }
 
+h2 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
