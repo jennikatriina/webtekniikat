@@ -1,5 +1,5 @@
 *[class^="col-"] {
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.308);
 }
 
 body {
@@ -22,4 +22,61 @@ h1 {
 h2 {
     padding-top: 10px;
     padding-bottom: 5px;
+}
+
+
+.gallery {
+    margin-top: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.desc {
+    padding: 10px;
+    text-align: center;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+
+.gallery {
+    width: 50%;
+}
+
+.gallery2 img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+
+@media screen and (min-width: 992px) {
+
+
+    div.gallery {
+        width: 30%;
+        display: inline-block;
+        margin: 10px;
+    }
+
+    strong {
+        display: block;
+        padding: 0px;
+    }
+
+    .gallery2 {
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
 }
