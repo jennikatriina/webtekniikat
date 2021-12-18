@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
+div {
+    margin: 10px
+}
+
+.half {
+    width: 50%;
+    float: left;
+}
+
+h1, h2, h3, h4, h5, h6, .highlight {
+    color: red;
+}
+
+p > span {
+    font-weight: bold;
+}
+
+input[required] {
+    border: 2px solid black
+}
+
+input:focus {
+    border-color: green;
+}
+
+p:hover {
+    font-size: 1.5rem;
+}
+
+/* backend luo artikkeleja luokkamäärityksillä, joissa aina sana article- ja artikkelin id. Case-insensitiivinen. */
