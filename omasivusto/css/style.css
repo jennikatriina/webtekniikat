@@ -58,9 +58,13 @@ h2 {
     padding: 10px;
 }
 
+footer {
+    background-color: rgba(245, 245, 220, 0.664);
+    text-align: center;
+}
+
 
 @media screen and (min-width: 992px) {
-
 
     div.gallery {
         width: 30%;
