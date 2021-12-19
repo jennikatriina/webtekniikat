@@ -1,0 +1,171 @@
+@charset "UTF-8";
+*[class^=col-] {
+  padding: 15px;
+  border: 1px dotted #35503e79;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-color: #203327;
+  margin: 0 0 150px;
+  font-family: "Quicksand", sans-serif;
+  color: #2b362f;
+}
+
+h1 {
+  height: 100px;
+  text-align: center;
+  color: #2b362f;
+  padding: 30px;
+}
+
+h2 {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+p {
+  margin: 10px;
+  margin-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+footer {
+  background-color: #3f6451a4;
+  text-align: center;
+  height: auto;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 15px;
+}
+
+footer p {
+  padding: 0px;
+  margin-top: 15px;
+  margin-bottom: 2px;
+  color: #fdfdf1;
+}
+
+img:hover {
+  border: 1px solid #35503e79;
+}
+
+.carousel-item img:hover, .icon:hover {
+  border: none;
+}
+
+.carouselP {
+  padding-bottom: 5px;
+  margin: 0;
+}
+
+.navbar-brand, .nav-item {
+  padding-left: 7px;
+}
+
+.accordion {
+  padding: 15px;
+}
+
+.accordion-item {
+  background-color: #ffffff91;
+}
+
+.accordion-button:focus {
+  border: none;
+  box-shadow: none;
+}
+
+.container {
+  background-color: #f5f5dc9f;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px 3px #192b21;
+  text-align: center;
+}
+
+.gallery {
+  margin-top: 10px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.desc {
+  padding: 10px;
+  text-align: center;
+}
+
+.icon {
+  height: 200px;
+  width: auto;
+  padding: 0px;
+  margin: auto;
+}
+
+.gallery {
+  width: 50%;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+.img-thumbnail {
+  border-radius: 0;
+  padding: 5px;
+}
+
+.btn {
+  padding: 1px 3px 1px 3px;
+  background-color: #ffffff31;
+  border: none;
+  color: #fdfdf1;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  background-color: #fdfdf1;
+}
+
+/* Muutetaan toisen sivun gallerian otsikko mustaksi ja pienemmäksi kuin oletus*/
+.fw-light {
+  color: #2b362f;
+  font-size: 30px;
+}
+
+.img-thumbnail {
+  background: none;
+  border: none;
+}
+
+.navbar {
+  background-color: #3f6451a4;
+}
+
+@media screen and (min-width: 992px) {
+  div.gallery {
+    width: 30%;
+    display: inline-block;
+    margin: 10px;
+  }
+
+  .gallery2 {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

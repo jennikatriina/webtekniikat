@@ -1,0 +1,191 @@
+
+$bg-color: #203327;
+$container-color: #f5f5dc9f;
+$text-color: #2b362f;
+$text2-color: #fdfdf1;
+$btn-color: #fdfdf1;
+$btn-bg-color: #ffffff31;
+$accordion-color: #ffffff91;
+$border-color: #35503e79;
+$footer-navbar-color: #3f6451a4;
+$box-shadow-color: #192b21;
+$font-stack: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+@mixin theme ($theme: null) {
+    border-color: $theme;
+    color: $theme;
+}
+
+
+*[class^="col-"] {
+    padding: 15px;
+    border: 1px dotted $border-color;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: $bg-color;
+    margin: 0 0 150px;
+    font-family: 'Quicksand', sans-serif;
+    color: $text-color;
+}
+
+h1 {
+    height: 100px;
+    text-align: center;
+    color: $text-color;
+    padding: 30px;
+}
+
+h2 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+p {
+    margin: 10px;
+    margin-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+footer {
+    background-color: $footer-navbar-color;
+    text-align: center;
+    height: auto ;
+    position:absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 15px;
+}
+
+footer p {
+    padding: 0px;
+    margin-top: 15px;
+    margin-bottom: 2px;
+    color: $text2-color;
+}
+
+img:hover {
+    border: 1px solid $border-color;
+}
+
+.carousel-item img:hover, .icon:hover {
+    border: none;
+}
+
+.carouselP {
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+.navbar-brand, .nav-item  {
+    padding-left: 7px;
+}
+
+.accordion {
+    padding: 15px;
+}
+
+.accordion-item {
+    background-color: $accordion-color;
+}
+
+.accordion-button:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.container {
+    background-color: $container-color ;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 3px $box-shadow-color ;
+    text-align: center;
+}
+
+.gallery {
+    margin-top: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.desc {
+    padding: 10px;
+    text-align: center;
+}
+
+.icon {
+    height: 200px;
+    width: auto;
+    padding: 0px;
+    margin: auto;
+}
+
+.gallery {
+    width: 50%;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.img-thumbnail {
+    border-radius: 0;
+    padding: 5px;
+}
+
+.btn {
+    padding: 1px 3px 1px 3px;
+    background-color: $btn-bg-color;
+    border: none;
+    color: $btn-color;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    background-color: $btn-color;
+}
+
+/* Muutetaan toisen sivun gallerian otsikko mustaksi ja pienemmäksi kuin oletus*/
+.fw-light {
+    color: $text-color;
+    font-size: 30px;
+}
+
+.img-thumbnail {
+    background: none;
+    border: none;
+}
+
+.navbar {
+    background-color: $footer-navbar-color;
+}
+
+
+@media screen and (min-width: 992px) {
+
+    div.gallery {
+        width: 30%;
+        display: inline-block;
+        margin: 10px;
+    }
+
+    .gallery2 {
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+}
