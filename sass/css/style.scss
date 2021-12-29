@@ -9,7 +9,7 @@ $accordion-color: #ffffff91;
 $border-color: #35503e79;
 $footer-navbar-color: #3f6451a4;
 $box-shadow-color: #192b21;
-$font-stack: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 
 @mixin theme ($theme: null) {
     border-color: $theme;
