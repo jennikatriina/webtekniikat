@@ -11,11 +11,6 @@ $footer-navbar-color: #3f6451a4;
 $box-shadow-color: #192b21;
 
 
-@mixin theme ($theme: null) {
-    border-color: $theme;
-    color: $theme;
-}
-
 
 *[class^="col-"] {
     padding: 15px;
@@ -64,15 +59,11 @@ footer {
     padding-bottom: 15px;
 }
 
-footer p {
+footer>p {
     padding: 0px;
     margin-top: 15px;
     margin-bottom: 2px;
     color: $text2-color;
-}
-
-img:hover {
-    border: 1px solid $border-color;
 }
 
 .carousel-item img:hover, .icon:hover {
@@ -117,7 +108,7 @@ img:hover {
     margin-right: auto;
 }
 
-.desc {
+a+div {
     padding: 10px;
     text-align: center;
 }
@@ -133,7 +124,7 @@ img:hover {
     width: 50%;
 }
 
-.gallery img {
+.gallery>a>img {
     width: 100%;
     height: auto;
     padding: 10px;
@@ -172,10 +163,13 @@ img:hover {
     background-color: $footer-navbar-color;
 }
 
+[target=_blank]>img:hover {
+    border: 1px solid $border-color;
+}
 
 @media screen and (min-width: 992px) {
 
-    div.gallery {
+    .gallery {
         width: 30%;
         display: inline-block;
         margin: 10px;
@@ -186,6 +180,5 @@ img:hover {
         margin-right: auto;
         margin-left: auto;
     }
-
 
 }

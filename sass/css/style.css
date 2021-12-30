@@ -46,15 +46,11 @@ footer {
   padding-bottom: 15px;
 }
 
-footer p {
+footer > p {
   padding: 0px;
   margin-top: 15px;
   margin-bottom: 2px;
   color: #fdfdf1;
-}
-
-img:hover {
-  border: 1px solid #35503e79;
 }
 
 .carousel-item img:hover, .icon:hover {
@@ -99,7 +95,7 @@ img:hover {
   margin-right: auto;
 }
 
-.desc {
+a + div {
   padding: 10px;
   text-align: center;
 }
@@ -115,7 +111,7 @@ img:hover {
   width: 50%;
 }
 
-.gallery img {
+.gallery > a > img {
   width: 100%;
   height: auto;
   padding: 10px;
@@ -154,8 +150,12 @@ img:hover {
   background-color: #3f6451a4;
 }
 
+[target=_blank] > img:hover {
+  border: 1px solid #35503e79;
+}
+
 @media screen and (min-width: 992px) {
-  div.gallery {
+  .gallery {
     width: 30%;
     display: inline-block;
     margin: 10px;
