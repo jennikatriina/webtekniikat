@@ -5,6 +5,7 @@ function get_joke_of_the_day() {
          let joke = JSON.parse(this.response);
 	     // Access the result here
 	     document.getElementById("joke").innerHTML = joke.contents.jokes[0].joke.text;
+         document.getElementById("copyright").innerHTML += joke.contents.copyright;
 
 	 }
     };
