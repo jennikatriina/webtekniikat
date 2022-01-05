@@ -22,20 +22,6 @@ header {
     font-family: 'Playfair Display', serif;
     font-size: 1.5em;
     text-shadow: -1px 0 rgba(0, 0, 0, 0.281), 0 1px rgba(0, 0, 0, 0.137), 1px 0 rgba(0, 0, 0, 0.137), 0 -1px rgba(0, 0, 0, 0.137);
-    animation-name: example;
-    animation-duration: 1.2s;
-}
-
-@keyframes example {
-    0%   {font-size: 0;}
-    50% {font-size: 1.8em;}
-    100% {font-size: 1.5em;}
-}
-
-
-@keyframes example3 {
-    0%   {background-color: rgba(0, 0, 0, 0); color: rgba(0, 0, 0, 0); backdrop-filter: none; -webkit-backdrop-filter: none; box-shadow: none;}
-    100% {background-color: rgba(84, 179, 90, 0.588); color: rgb(255, 255, 255); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); box-shadow: 0px 0px 15px 3px rgba(36, 105, 57, 0.315)}
 }
 
 h2 {
@@ -96,7 +82,7 @@ select {
 
 button {
     display: block;
-    margin: 5px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
     padding: 7px;
     border-radius: 7px;
     border-width: 0;
@@ -106,8 +92,12 @@ button {
     transition: 1s;
     background: linear-gradient(
         to bottom right,
-        rgba(104, 255, 192, 0.705), rgba(162, 250, 138, 0.671));
+        rgba(104, 255, 192, 0.76), rgba(192, 255, 175, 0.678));
     
+}
+
+p {
+    margin: 10px 0px 10px 0px;
 }
 
 input {
@@ -115,9 +105,10 @@ input {
     border-radius: 5px;
     border-width: 0;
     width: 30px;
+    margin-bottom: 15px;
 }
 
-button:hover {
+button:hover, #startOver:hover {
     background: linear-gradient(
         to bottom right,
         rgba(139, 235, 195, 0.698), rgba(215, 248, 206, 0.631));
@@ -133,7 +124,7 @@ button:hover {
     grid-column: 2 / 4;
     grid-row: 3 / 6;
     padding: 30px;
-    background-color: rgba(84, 179, 90, 0.588);
+    background-color: rgba(86, 182, 92, 0.588);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     z-index: 1;
@@ -142,8 +133,11 @@ button:hover {
     height: 270px;
     text-align: center;
     box-shadow: 0px 0px 15px 3px rgba(36, 105, 57, 0.315);
-    animation-name: example3;
-    animation-duration: 2s;
+
+}
+
+#editedH2 {
+    font-size: 1.2em;
 }
 
 #toDoH2 {
@@ -161,11 +155,10 @@ button:hover {
 }
 
 #error {
-    color: rgb(0, 0, 0);
-    background-color: rgba(255, 99, 71, 0.651);
-    width: 60%;
-    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 99, 71, 0.623);
     text-align: center;
+    margin-top: 15px;
 }
 
 #refresh {
@@ -178,9 +171,16 @@ button:hover {
 #refresh:hover {
     background: linear-gradient(
         to bottom right,
-        rgba(227, 255, 248, 0.8), rgba(200, 250, 211, 0.753));
+        rgba(235, 255, 250, 0.849), rgba(200, 250, 211, 0.822));
     box-shadow: 0px 0px 5px 3px rgba(155, 228, 190, 0.479);
     transition: 1s;
+}
+
+#startOver {
+    background: linear-gradient(
+        to bottom right,
+        rgba(226, 255, 240, 0.384), rgba(182, 255, 212, 0.295));
+    color: rgba(0, 0, 0, 0.774);
 }
 
 footer {
