@@ -28,7 +28,7 @@ showParticipants();
 function get_activity() {
 
     if (participants.value >= 5 || participants.value <= 0) {
-        document.getElementById("error").innerHTML = "Please select from 1 to 4";
+        document.getElementById("error").innerHTML = "Please select from 1 to 4 participants.";
         return;
 
     } else { 
