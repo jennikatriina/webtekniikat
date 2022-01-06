@@ -209,16 +209,133 @@ footer {
     #oneEdited {
         min-height: 260px;
         font-size: 0.93em;
+        margin-bottom: 30px;
     }
 
     #two {
         width: 230px;
         height: 230px;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    h1 {
+        margin-top: 50px;
+    }
+
+    #one {
+        margin-top: 30px;
+    }
+
+    #oneEdited {
+        margin-top: 30px;
+    }
+
+    #two {
+        margin-top: 30px;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+
+    #one {
+        margin-top: 50px;
+    }
+
+    #oneEdited {
+        margin-top: 50px;
+    }
+
+    #two {
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+
+    #one {
+        margin-bottom: 85px;
+    }
+
+    #oneEdited {
+        margin-bottom: 40px;
+    }
+
+    #two {
+        margin-bottom: 40px;
+    }
+
+}
+
+@media screen and (max-width: 370px) {
+
+    #one {
+        margin-bottom: 100px;
+    }
+
+    #oneEdited {
+        margin-bottom: 50px;
+    }
+
+    #two {
+        margin-bottom: 50px;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+
+    #one {
+        margin-bottom: 115px;
+    }
+
+    #oneEdited {
+        margin-bottom: 60px;
+    }
+
+    #two {
+        margin-bottom: 60px;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+
+    #one {
+        margin-bottom: 130px;
+    }
+
+    #oneEdited {
+        margin-bottom: 70px;
+    }
+
+    #two {
+        margin-bottom: 70px;
+    }
+
+}
+
+@media screen and (max-width: 340px) {
+
+    #one {
+        margin-bottom: 145px;
+    }
+
+    #oneEdited {
+        margin-bottom: 80px;
+    }
+
+    #two {
+        margin-bottom: 80px;
     }
 
 }
 
 
 
-
-  
