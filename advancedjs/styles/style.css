@@ -3,7 +3,8 @@
 body {
     background-color: rgba(3, 37, 5, 0.219);
     background-image: url(../images/marra-hpx01Hfs9QY-unsplash.jpg);
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     background-blend-mode: darken;
     color: rgb(255, 255, 255);
     font-family: 'Inter', sans-serif;
