@@ -71,7 +71,7 @@ h2 {
 }
 
 select {
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 20px 0px;
     padding: 3px;
     border-radius: 5px;
     border-width: 0;
@@ -82,7 +82,7 @@ select {
 
 button {
     display: block;
-    margin: 10px 0px 0px 0px;
+    margin: 15px 0px 0px 0px;
     padding: 7px;
     border-radius: 7px;
     border-width: 0;
@@ -105,10 +105,10 @@ input {
     border-radius: 5px;
     border-width: 0;
     width: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
-button:hover, #startOver:hover {
+button:hover {
     background: linear-gradient(
         to bottom right,
         rgba(139, 235, 195, 0.698), rgba(215, 248, 206, 0.631));
@@ -161,14 +161,18 @@ button:hover, #startOver:hover {
     margin-top: 15px;
 }
 
-#refresh {
+#refresh, #startOver {
     background: linear-gradient(
         to bottom right,
         rgba(226, 255, 240, 0.706), rgba(160, 255, 200, 0.635));
-    padding: 10px;
+    padding: 12px;
 }
 
-#refresh:hover {
+#startOver {
+    padding: 7px;
+}
+
+#refresh:hover, #startOver:hover {
     background: linear-gradient(
         to bottom right,
         rgba(235, 255, 250, 0.849), rgba(200, 250, 211, 0.822));
@@ -176,12 +180,6 @@ button:hover, #startOver:hover {
     transition: 1s;
 }
 
-#startOver {
-    background: linear-gradient(
-        to bottom right,
-        rgba(226, 255, 240, 0.384), rgba(182, 255, 212, 0.295));
-    color: rgba(0, 0, 0, 0.774);
-}
 
 footer {
     text-align: center;
